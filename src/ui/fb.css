@@ -1,0 +1,101 @@
+ @import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;    
+	box-sizing: border-box;         
+  -webkit-transition: .25s ease-in;
+}
+html, body{
+  min-height: 100%; 
+}
+.wrapper-page{
+  position: fixed;
+  top : 70px;
+  margin: 50px;
+   color: #333;
+}
+.wrapper-page h1{
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 1px 3px 2px #999;
+}
+.wrapper-page h2{
+  text-align: center;
+  padding: .1em 0 2em 0;
+}
+
+.social-mini{
+  list-style-type: none;
+  width: 15em;
+  display: block;
+  margin: auto;
+}
+.wrapper-page li:hover{
+  cursor: pointer; 
+}
+.wrapper-page li:hover:after {  
+  height: 200%;
+  padding-top: 40%;
+}
+.social-mini li{
+  float: left; 
+  width: 29%;
+  margin-right: 6%;
+  display: block;
+  text-align: center;
+  position: fixed;
+  background: #FFF;
+}
+.social-mini li:last-child{
+  margin-right: 0; 
+}
+
+.bubble{
+  border: 1px solid #999;
+  line-height: 2.6em;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.bubble:before{
+  content: "";
+  width: 0; 
+	height: 0; 
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid #666;
+  margin-left: -8px;
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+}
+li:after{
+ content: "";
+ font-size: .9em;
+ line-height: 2em;
+ width: 100%;
+ position: absolute;
+ bottom: -100%;
+ border: 1px solid #999;
+ border-radius: 3px;
+ left: 0;
+}
+
+li:nth-of-type(1):after {  
+  content: "Tweets";
+  background: #00CCFF;
+  color: #fff;  
+}
+li:nth-of-type(2):after {  
+  content: "Likes";
+  background: #0066CC;
+  color: #fff;  
+}
+li:nth-of-type(3):after {  
+  content: "+1";
+  background: #333;
+  color: #fff;  
+}
+
+
