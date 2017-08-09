@@ -3,7 +3,7 @@ SocialCounts Widget
 SocialCounts is a widget that watches a certain facebook page and displays the number of likes for that particular page in a given mendix application.
 
 
-The socialConts widget contains:
+The SocialCounts widget contains:
 - Directory structure
 - Readme.md
  Typescript source
@@ -37,9 +37,10 @@ Built With
 We use SemVer for versioning.
 
 Contributors
+
 Muloki Samuel
 Freedom Gemmar
-Magezi Patrick Edwin
+
 
 
 
