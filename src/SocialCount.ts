@@ -68,18 +68,12 @@ class SocialCount extends WidgetBase {
                         return;
                     }else {
                                    dom.byId("fans").innerHTML = `
-                                                                        
+                                                                 
                                       <ul class="social-mini">
-                                        <li>
-                                        <div class="bubble"><span>868</span></div>
-                                        </li>
                                         <li>
                                         <div class="bubble"><span>${response.fan_count}</span></div>
                                         </li>
-                                        <li>
-                                        <div class="bubble"><span>28</span></div>
-                                        </li>
-                                    </ul>
+                                        </ul>
                                                  
                 `;}
             });

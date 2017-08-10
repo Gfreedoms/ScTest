@@ -29,7 +29,7 @@
     "noImplicitThis": true,
     "skipLibCheck": true,
     "strictNullChecks": true
-  },
+      },
   "exclude": [
     "dist/",
     "node_modules/"

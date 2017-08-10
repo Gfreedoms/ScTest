@@ -6,6 +6,15 @@ Watches changes on a particular facebook page and returns the number of likes in
 Dispalys the number of likes of a particular . facebook page.</br>
 edit the app information table to customise them to your application. 
 
+<<<<<<< HEAD
+=======
+The SocialCounts widget contains:
+- Directory structure
+- Readme.md
+ Typescript source
+- XSD for package.xml, to configure properties of the widget, visible inside the
+ Mendix business modeler
+>>>>>>> ff7cb98a299ec08bb978af6dbe582b71b7baefde
 
 ## Dependencies
  mendix 6.10 and mendix 7.3
@@ -52,10 +61,15 @@ Built With
 
 ## We use SemVer for versioning.
 
+<<<<<<< HEAD
 ## Contributors
+=======
+Contributors
+
+>>>>>>> ff7cb98a299ec08bb978af6dbe582b71b7baefde
 Muloki Samuel
 Freedom Gemmar
-Magezi Patrick Edwin
+
 
 
 

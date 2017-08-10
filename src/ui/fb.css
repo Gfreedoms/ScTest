@@ -5,7 +5,7 @@
   -webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;    
 	box-sizing: border-box;         
-  -webkit-transition: .25s ease-in;
+  /*-webkit-transition: .25s ease-in;*/
 }
 .wrapper-page{
   position: fixed;
