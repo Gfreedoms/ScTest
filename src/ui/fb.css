@@ -7,13 +7,10 @@
 	box-sizing: border-box;         
   -webkit-transition: .25s ease-in;
 }
-html, body{
-  min-height: 100%; 
-}
 .wrapper-page{
   position: fixed;
   top : 70px;
-  margin: 50px;
+  margin: 10px;
    color: #333;
 }
 .wrapper-page h1{
@@ -45,7 +42,7 @@ html, body{
   margin-right: 6%;
   display: block;
   text-align: center;
-  position: fixed;
+  position: relative;
   background: #FFF;
 }
 .social-mini li:last-child{

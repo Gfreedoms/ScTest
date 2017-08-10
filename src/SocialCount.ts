@@ -66,7 +66,7 @@ class SocialCount extends WidgetBase {
                     if (!response || response.error) {
                         mx.ui.error(!response ? "error occurred" : response.error);
                         return;
-                    }
+                    }else {
                                    dom.byId("fans").innerHTML = `
                                                                         
                                       <ul class="social-mini">
@@ -81,7 +81,7 @@ class SocialCount extends WidgetBase {
                                         </li>
                                     </ul>
                                                  
-                `;
+                `;}
             });
         }
     }
