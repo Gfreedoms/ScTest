@@ -24,4 +24,4 @@ Non so far
 
 ## Frequently Asked Questions
 
-Ask your question at the Mendix Community Mendix forum
+Ask your question at the Mendix Community Mendix <a href="https://forum.mendixcloud.com/index4.html">forum</a>
